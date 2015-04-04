@@ -159,7 +159,7 @@ Public Class frmMain
                 Case "0x80"
                     updateStatus("Powered on at 80 C", 30, ToolTipIcon.Info, 80, 0)
                 Case "0x65"
-                    updateStatus("Powered on at 65 C", 30, ToolTipIcon.Info, 80, 0)
+                    updateStatus("Powered on at 65 C", 30, ToolTipIcon.Info, 65, 0)
                 Case "0x11"
                     updateStatus("Powered on and warming", 30, ToolTipIcon.Info, -1, -1)
                 Case "0x8005"
